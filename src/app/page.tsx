@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </header>
         <div className="flex-1 flex justify-center items-center">
-          <Link href="https://docs.mouhamedlamotte.tech">docs.mouhamedlamotte.tech</Link>
+          <Link className="font-bold text-2xl text-primary-foreground" href="https://docs.mouhamedlamotte.tech">docs.mouhamedlamotte.tech</Link>
         </div>
       </SidebarInset>
     </SidebarProvider>
