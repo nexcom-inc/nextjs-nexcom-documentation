@@ -11,6 +11,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
           </div>
         </header>
         <div className="flex-1 flex justify-center items-center">
-            <h3>docs.nexcom.com</h3>
+          <Link href="https://docs.mouhamedlamotte.tech">docs.mouhamedlamotte.tech</Link>
         </div>
       </SidebarInset>
     </SidebarProvider>
